@@ -11,7 +11,7 @@ export default createRouter({
   history: createWebHistory(),
   routes: [
     {
-      path: '/',
+      path: '/eventease-SEO',
       component: Hem,
       beforeEnter: (to, from, next) => {
         if (useLoginStore().getIsLoggedIn()) {
@@ -25,16 +25,16 @@ export default createRouter({
       }
     },
 
-    { path: '/Calendarweather', component: Weather },
-    { path: '/org', component: organisationen },
+    { path: '/eventease-SEO/Calendarweather', component: Weather },
+    { path: '/eventease-SEO/org', component: organisationen },
     {
-      path: '/kalender/:kategori',
+      path: '/eventease-SEO/kalender/:kategori',
       component: Kalendar,
       beforeEnter: (to, from, next) => {
         if (useLoginStore().getIsLoggedIn()) {
           const kategori = to.params.kategori;
           next({
-            path: `/user/${useLoginStore().getUserId()}/kalender/${kategori}`
+            path: `/eventease-SEO/user/${useLoginStore().getUserId()}/kalender/${kategori}`
           });
         } else {
           // Continue with navigation
@@ -42,15 +42,15 @@ export default createRouter({
         }
       }
     },
-    { path: `/user/:id/kalender/:kategori`, component: Kalendar },
+    { path: `/eventease-SEO/user/:id/kalender/:kategori`, component: Kalendar },
     // { path: '/user/:afterUser(.*)', component: UserHome },
     {
-      path: '/user/:id',
+      path: '/eventease-SEO/user/:id',
       component: Hem,
       beforeEnter: (to, from, next) => {
         if (!useLoginStore().getIsLoggedIn()) {
           // Redirect to home
-          next({ path: '/' });
+          next({ path: '/eventease-SEO/' });
         } else {
           // Continue with navigation
           next();

@@ -10,6 +10,6 @@
 
   function logOut() {
     store.logout();
-    router.push('/');
+    router.push('/eventease-SEO/');
   }
 </script>

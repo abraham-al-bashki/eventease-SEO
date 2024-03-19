@@ -53,7 +53,7 @@
     //  omdirigera användaren till en annan sida med hjälp av Vue Router
     watch: {
       selected() {
-        this.$router.push(`/kalender/${this.selected}`);
+        this.$router.push(`/eventease-SEO/kalender/${this.selected}`);
       }
     }
   };

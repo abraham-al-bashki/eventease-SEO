@@ -207,7 +207,7 @@
         ', user.id: ',
         signUpUserInput.value.id
       );
-      router.push({ path: `user/${signUpUserInput.value.id}` });
+      router.push({ path: `/eventease-SEO/user/${signUpUserInput.value.id}` });
     } else {
       errorTextShow();
     }
@@ -234,7 +234,7 @@
     const user = users.value.find(
       (element) => element.name === signUpUserInput.value.username
     );
-    if (user) {
+    if (user || signUpUserInput.value.username === '') {
       isUsernameTaken.value = true;
     } else {
       isUsernameTaken.value = false;
