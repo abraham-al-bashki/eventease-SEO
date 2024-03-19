@@ -5,10 +5,10 @@
   const informat = ref('');
   const show = ref(false);
   function test() {
-    console.log('hej');
+    // console.log('hej');
     if (typeof store.getUserinformation() === 'string') {
       informat.value = JSON.parse(store.getUserinformation());
-      console.log('information', informat.value);
+      // console.log('information', informat.value);
       if (informat?.value?.type === 'organistation') {
         show.value = true;
       }

@@ -137,12 +137,6 @@
       errorTextHide();
       const store = useLoginStore();
       store.login(user);
-      console.log(
-        'useLoginStore()',
-        store.getIsLoggedIn(),
-        ', user.id: ',
-        user.id
-      ); //TODO: remove console.log when the rest is implemented
       // router.push({ path: `user/${user.id}`, params: { id: user.id } }); //TODO: Vue warning about replacing path with name here https://router.vuejs.org/guide/essentials/named-routes
       router.push({ path: `/eventease-SEO/user/${user.id}` });
     } else {

@@ -25,7 +25,7 @@
         )
           .then((response) => response.json())
           .then((result) => {
-            console.log('result', result);
+            // console.log('result', result);
             this.options = result.documents.map((x) => {
               let s = x.name.split('/');
               return s[s.length - 1];

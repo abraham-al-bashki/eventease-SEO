@@ -21,16 +21,8 @@ function clearAuthToken() {
 import { defineStore } from 'pinia';
 
 export const useLoginStore = defineStore('login', {
-  getters: {
-    usern: () => 'the man the myth'
-  },
   actions: {
     login(token) {
-      if (token === 'guest') {
-        console.log('hej44t');
-        //fetch objektet
-        //spara i local storage med "USER_INFO"
-      }
       setAuthToken(token);
     },
     logout() {

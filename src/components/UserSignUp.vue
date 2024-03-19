@@ -201,12 +201,6 @@
       errorTextHide();
       const store = useLoginStore();
       store.login(signUpUserInput.value);
-      console.log(
-        'useLoginStore()',
-        store.getIsLoggedIn(),
-        ', user.id: ',
-        signUpUserInput.value.id
-      );
       router.push({ path: `/eventease-SEO/user/${signUpUserInput.value.id}` });
     } else {
       errorTextShow();

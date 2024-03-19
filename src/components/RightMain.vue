@@ -12,8 +12,8 @@
   const show = ref(false);
 
   function routeCheck() {
-    console.log('route', route);
-    console.log('route', store.getUserinformation());
+    // console.log('route', route);
+    // console.log('route', store.getUserinformation());
     if (typeof store.getUserinformation() === 'string') {
       informat.value = JSON.parse(store.getUserinformation());
       if (informat?.value?.type === 'organistation') {

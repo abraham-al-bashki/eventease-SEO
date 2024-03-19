@@ -34,7 +34,7 @@
 
   // testar async await och arrow funktion istället
   const addParent = async () => {
-    console.log('test');
+    // console.log('test');
     const PostDataparent = {
       fields: {
         date: { stringValue: 'tomt' }

@@ -33,14 +33,14 @@
         let nu = new Date();
         let tid = nu.toLocaleTimeString('sv-SE', options);
         this.date = tid;
-        console.log(tid);
+        // console.log(tid);
 
         // Starta timern här istället
         this.intervalID = setInterval(() => {
           let nu = new Date();
           let tid = nu.toLocaleTimeString('sv-SE', options);
           this.date = tid;
-          console.log(tid);
+          // console.log(tid);
         }, 60000); // Ange intervallet i millisekunder, 1000 motsvarar en sekund
       },
       beforeDestroy() {

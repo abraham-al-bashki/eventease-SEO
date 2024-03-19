@@ -6,17 +6,17 @@
 
 <script setup>
   // försök 2: anävända redirect istället för navigation guard. Och aanvända store för att veta vilken user id som ska vara på path. Och på nåt sätt skicka en prop från router redirect
-  import Hem from './Hem.vue';
+  // import Hem from './Hem.vue';
   import Calendar from './EventCalendar.vue';
   import { ref, watch } from 'vue';
   import {
-    useRoute,
-    useRouter,
-    onBeforeRouteLeave,
-    onBeforeRouteUpdate
+    useRoute
+    // useRouter
+    // onBeforeRouteLeave,
+    // onBeforeRouteUpdate
   } from 'vue-router';
   const route = useRoute();
-  const router = useRouter();
+  // const router = useRouter();
   // const routePath = ref(route.path);
   const currentComponent = ref('Hem');
   // const props = defineProps({ currentComponent: String });

@@ -142,8 +142,8 @@
     return s;
   }
   function test() {
-    console.log('t', daysArray.value);
-    console.log('t', happening.value);
+    // console.log('t', daysArray.value);
+    // console.log('t', happening.value);
   }
   getEvents();
 </script>

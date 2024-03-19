@@ -61,7 +61,6 @@
     )
       .then((response) => response.json())
       .then((result) => {
-        console.log('result', result);
         // Filtrera endast de värden där dt_txt visar 15:00
         list.value = result.list.filter((we) => we.dt_txt.includes('15:00'));
         getWeekday();
@@ -86,8 +85,6 @@
   function getWeekday(timestamp) {
     const weekdays = ['Sön', 'Mån', 'Tis', 'Ons', 'Tor', 'Fre', 'Lör'];
     const date = new Date(timestamp);
-    console.log('UGFISGFGSGFG', date.getDay());
-    console.log('UGFISGFGSGFG', list.value[0].dt_txt);
     const weekday = weekdays[date.getDay()];
     return weekday;
   }
