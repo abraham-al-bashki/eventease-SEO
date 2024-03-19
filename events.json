@@ -1,0 +1,110 @@
+{
+  "kategori": {
+    "Filosofi": {
+      "year": {
+        "2023": {
+          "months": {
+            "3": {
+              "dates": {
+                "22": [
+                  {
+                    "time": "13.00",
+                    "namn": "Filosofika månad 3 kl 13",
+                    "plats": "Filosofiska instutitionen",
+                    "info": "vetenskapens grunder"
+                  },
+                  {
+                    "time": "22.00",
+                    "namn": "Filosofika månad 3 kl 14",
+                    "plats": "Filosofiska instutitionen",
+                    "info": "quine vs carnap"
+                  }
+                ]
+              }
+            },
+
+            "2": {
+              "dates": {
+                "22": [
+                  {
+                    "time": "13.00",
+                    "namn": "Filosofika månad 3 kl 13",
+                    "plats": "Filosofiska instutitionen",
+                    "info": "vetenskapens grunder"
+                  },
+                  {
+                    "time": "23.00",
+                    "namn": "Filosofika månad 3 kl 14",
+                    "plats": "Filosofiska instutitionen",
+                    "info": "quine vs carnap"
+                  }
+                ]
+              }
+            },
+            "1": {
+              "22": [
+                {
+                  "time": "13.00",
+                  "namn": "Filosofika månad 3 kl 13",
+                  "plats": "Filosofiska instutitionen",
+                  "info": "vetenskapens grunder"
+                },
+                {
+                  "time": "24.00",
+                  "namn": "Filosofika månad 3 kl 14",
+                  "plats": "Filosofiska instutitionen",
+                  "info": "quine vs carnap"
+                }
+              ]
+            }
+          }
+        },
+        "2024": {
+          "months": {
+            "1": {
+              "dates": {
+                "22": [
+                  {
+                    "time": "13.00",
+                    "stop": "15.00",
+                    "namn": "filosofika",
+                    "plats": "Filosofiska instutitionen",
+                    "info": "vetenskapens grunder"
+                  },
+                  {
+                    "time": "13.00",
+                    "stop": "15.00",
+                    "namn": "möte",
+                    "plats": "Filosofiska instutitionen",
+                    "info": "vetenskapens grunder"
+                  },
+                  {
+                    "time": "13.00",
+                    "stop": "17.00",
+                    "namn": "nu ska vi ses",
+                    "plats": "Filosofiska test2 instutitionen",
+                    "info": "vetenskapens grunder2"
+                  },
+                  {
+                    "time": "14.00",
+                    "stop": "15.00",
+                    "namn": "Filosofika månad test5 3 kl 14",
+                    "plats": "Filosofiska test2 instutitionen",
+                    "info": "vetenskapens grunder6"
+                  },
+                  {
+                    "time": "21.00",
+                    "stop": "23.00",
+                    "namn": "Filosofika månad 3 kl 21",
+                    "plats": "Filosofiska instutitionen",
+                    "info": "quine vs carnap"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

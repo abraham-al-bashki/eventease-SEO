@@ -1,0 +1,29 @@
+{
+  "happening": [
+    {
+      "kategori": "ovrigt",
+      "namn": "Möte med riksarkivet",
+      "plats": "Riksarkivet",
+      "tid": "11.30"
+    },
+    {
+      "kategori": "musik",
+      "namn": "Mellanmålsmusik",
+      "plats": "Skönskyrka",
+      "tid": "15.30"
+    },
+
+    {
+      "kategori": "musik",
+      "namn": "Hemliga klubben",
+      "plats": "Pustervik",
+      "tid": "20.00"
+    },
+    {
+      "kategori": "teater",
+      "namn": "Lunchteater - Dagermans Stig",
+      "plats": "Göteborgs stadsteater",
+      "tid": "12.00"
+    }
+  ]
+}
