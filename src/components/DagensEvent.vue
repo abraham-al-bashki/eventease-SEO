@@ -43,7 +43,7 @@
   const search = ref('');
   // Funktion för att hämta händelser från JSON-fil, today.json
   function getTips() {
-    fetch('https://abraham-al-bashki.github.io/eventease-SEO/assets/today.json')
+    fetch('/eventease-SEO/src/assets/today.json')
       .then((response) => response.json())
       .then((result) => {
         händelse.value = result.happening;
