@@ -16,7 +16,7 @@ export default createRouter({
       beforeEnter: (to, from, next) => {
         if (useLoginStore().getIsLoggedIn()) {
           next({
-            path: `/user/${useLoginStore().getUserId()}`
+            path: `/eventease-SEO/user/${useLoginStore().getUserId()}`
           });
         } else {
           // Continue with navigation
