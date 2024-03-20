@@ -1,5 +1,5 @@
 <script setup>
-  import DagensEvent from './DagensEvent.vue';
+  // import DagensEvent from './DagensEvent.vue';
   import EventEase from './EventEase.vue';
   import DagensDatum from './DagensDatum.vue';
 
@@ -13,7 +13,7 @@
     <EventEase />
     <DagensDatum />
     <!-- <AnalogKlocka /> -->
-    <DagensEvent />
+    <!-- <DagensEvent /> -->
     <!-- <buttontoOrg /> -->
   </div>
 
